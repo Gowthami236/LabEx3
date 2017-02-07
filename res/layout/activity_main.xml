@@ -9,47 +9,47 @@
     tools:context="com.example.lab3.MainActivity" >
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/b4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
+        android:layout_alignLeft="@+id/b1"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="174dp"
         android:text="String" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/b5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/button2"
-        android:layout_below="@+id/button1"
+        android:layout_alignRight="@+id/b2"
+        android:layout_below="@+id/b1"
         android:text="Square" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/b2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
+        android:layout_alignBaseline="@+id/b1"
+        android:layout_alignBottom="@+id/b1"
         android:layout_alignParentRight="true"
         android:layout_marginRight="35dp"
         android:text="Rectangle" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/b1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button4"
+        android:layout_above="@+id/b4"
         android:layout_marginBottom="82dp"
         android:layout_marginRight="19dp"
-        android:layout_toLeftOf="@+id/button2"
+        android:layout_toLeftOf="@+id/b2"
         android:text="Circle" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/b3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/b2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="17dp"
         android:text="Ellipse" />
