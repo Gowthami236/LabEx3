@@ -45,6 +45,11 @@ public class MainActivity extends ActionBarActivity {
 				i.putExtra("dim", data);
 				startActivity(i);
 			}
+
+			private void startActivity(Intent i) {
+				// TODO Auto-generated method stub
+				
+			}
 		});
         sq.setOnClickListener(new View.OnClickListener() {
 			
@@ -56,6 +61,11 @@ public class MainActivity extends ActionBarActivity {
 				i.putExtra("value", data);
 				i.putExtra("dim", data);
 				startActivity(i);
+			}
+
+			private void startActivity(Intent i) {
+				// TODO Auto-generated method stub
+				
 			}
 		});
         cir.setOnClickListener(new View.OnClickListener() {
@@ -69,6 +79,11 @@ public class MainActivity extends ActionBarActivity {
 			i.putExtra("dim", data);
 			startActivity(i);
 		}
+
+		private void startActivity(Intent i) {
+			// TODO Auto-generated method stub
+			
+		}
 	});
         str.setOnClickListener(new View.OnClickListener() {
 		
@@ -81,12 +96,22 @@ public class MainActivity extends ActionBarActivity {
 			i.putExtra("dim", data);
 			startActivity(i);
 		}
+
+		private void startActivity(Intent i) {
+			// TODO Auto-generated method stub
+			
+		}
 	});
     
     
     
 
     }
+
+	private Button findViewById(int rect2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
    
 
