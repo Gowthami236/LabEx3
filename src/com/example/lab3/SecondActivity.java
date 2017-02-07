@@ -1,14 +1,11 @@
 package com.example.lab3;
 import android.app.Activity;
 import android.os.Bundle;
-import android.app.Activity;
 import android.content.Intent;
-import android.app.Activity;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 
